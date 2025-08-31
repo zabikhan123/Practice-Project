@@ -343,13 +343,33 @@
 
 //use arrow function 
 
-const vowel = (str) => {
-   let count = 0;
-   for(let char of str){
-       if( char === "a" || char === "e" || char === "i" || char === "o" || char === "u" || char === "A" || char === "E" || char === "I" || char === "O" || char === "U"){
-           count++;
-       }
-   }
-   console.log(count);
-}
-vowel("afghanistan");
+// const vowel = (str) => {
+//    let count = 0;
+//    for(let char of str){
+//        if( char === "a" || char === "e" || char === "i" || char === "o" || char === "u" || char === "A" || char === "E" || char === "I" || char === "O" || char === "U"){
+//            count++;
+//        }
+//    }
+//    console.log(count);
+// }
+// vowel("afghanistan");
+
+// forEach loops in js
+
+// let arr = [1,2,3,4,5,6,7,8,9];
+// arr.forEach(function print(val){
+//     console.log(val);
+// })
+
+
+// let arr = ["kabul","kandahar","herat","mazar"];
+// arr.forEach((val , ind , arr) => {
+//     console.log(val.toUpperCase() , ind , arr);
+// })
+
+// Quistion number one 
+
+let num = [2,3,4,5,6,7,8,9];
+num.forEach((you) =>{
+    console.log(you * you);
+})
