@@ -369,7 +369,24 @@
 
 // Quistion number one 
 
-let num = [2,3,4,5,6,7,8,9];
-num.forEach((you) =>{
-    console.log(you * you);
+// let num = [2,3,4,5,6,7,8,9];
+// num.forEach((you) =>{
+//     console.log(you * you);
+// })
+
+//map metod in js
+
+// let num = [33,44,55,66,77,88,99];
+
+// let newarry = num.map((afg) => {
+//     return afg * afg;
+// });
+// console.log(newarry);
+
+// filter metod in js  
+
+let num = [2,3,4,5,6,7,8,8,9,98,76,56,45,34,23];
+let newarry = num.filter((afg) => {
+    return afg % 2 === 0;
 })
+console.log(newarry);
