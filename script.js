@@ -385,8 +385,32 @@
 
 // filter metod in js  
 
-let num = [2,3,4,5,6,7,8,8,9,98,76,56,45,34,23];
-let newarry = num.filter((afg) => {
-    return afg % 2 === 0;
-})
-console.log(newarry);
+// let num = [2,3,4,5,6,7,8,8,9,98,76,56,45,34,23];
+// let newarry = num.filter((afg) => {
+//     return afg % 2 === 0;
+// })
+// console.log(newarry);
+
+
+//reduce metod in js
+
+// let num = [1,2,3,4];
+// let newnum = num.reduce((afg , pak)=>{
+//     return afg + pak;
+// });
+// console.log(newnum);
+
+// let num = [1,2,3,4,23,43,55,100];
+// let newnum = num.reduce((afg , pak)=>{
+//     return afg > pak ? afg : pak ;  
+// });
+// console.log(newnum)
+
+// Quistion number one 
+
+let mark = [80, 90, 70, 60, 85, 92, 93, 95, 98, 99 , 65];
+
+let topper = mark.filter((afg) => {
+    return afg > 90;
+});
+console.log(topper);
