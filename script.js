@@ -408,9 +408,28 @@
 
 // Quistion number one 
 
-let mark = [80, 90, 70, 60, 85, 92, 93, 95, 98, 99 , 65];
+// let mark = [80, 90, 70, 60, 85, 92, 93, 95, 98, 99 , 65];
 
-let topper = mark.filter((afg) => {
-    return afg > 90;
+// let topper = mark.filter((afg) => {
+//     return afg > 90;
+// });
+// console.log(topper);
+
+// Quistion number two 
+
+let n = prompt("enter a number that you gass :")
+let arr = [];
+for(let i = 1; i <= n ; i++){
+    arr[i - 1] = i;
+}
+console.log(arr);
+
+let sumof = arr.reduce((red , gree)=>{
+    return red + gree;
 });
-console.log(topper);
+console.log(sumof);
+
+let factorial = arr.reduce((red , gree)=>{
+    return red * gree;
+});
+console.log("factorial  = ",factorial);
