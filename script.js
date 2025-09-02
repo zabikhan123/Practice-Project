@@ -434,3 +434,16 @@
 // });
 // console.log("factorial  = ",factorial);
 
+
+
+//window object that represents the browser window
+// console.log(window);
+
+
+//Dom manipulation in js 
+
+
+// let newpara = document.getElementById("parag").innerHTML = "new content for the paragraph";
+// console.log(newpara);
+// let newtitle = document.getElementsByClassName("title")[0].innerHTML = "new title for website";
+// console.log(newtitle);
