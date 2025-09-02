@@ -417,19 +417,20 @@
 
 // Quistion number two 
 
-let n = prompt("enter a number that you gass :")
-let arr = [];
-for(let i = 1; i <= n ; i++){
-    arr[i - 1] = i;
-}
-console.log(arr);
+// let n = prompt("enter a number that you gass :")
+// let arr = [];
+// for(let i = 1; i <= n ; i++){
+//     arr[i - 1] = i;
+// }
+// console.log(arr);
 
-let sumof = arr.reduce((red , gree)=>{
-    return red + gree;
-});
-console.log(sumof);
+// let sumof = arr.reduce((red , gree)=>{
+//     return red + gree;
+// });
+// console.log(sumof);
 
-let factorial = arr.reduce((red , gree)=>{
-    return red * gree;
-});
-console.log("factorial  = ",factorial);
+// let factorial = arr.reduce((red , gree)=>{
+//     return red * gree;
+// });
+// console.log("factorial  = ",factorial);
+
