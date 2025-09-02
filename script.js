@@ -447,3 +447,15 @@
 // console.log(newpara);
 // let newtitle = document.getElementsByClassName("title")[0].innerHTML = "new title for website";
 // console.log(newtitle);
+// let btn = document.getElementsByTagName("button")[0].innerHTML = "new btn";
+// console.log(btn);
+
+// let firstEl = document.querySelector("p");
+// console.dir(firstEl.tagName);
+
+// let allEl = document.querySelectorAll("p");
+// console.log(allEl);
+
+// let body = document.body.innerHTML = "<h1>new content for body</h1>";
+
+// we can use also textContent that the show us the hidden text
