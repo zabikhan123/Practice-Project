@@ -459,3 +459,14 @@
 // let body = document.body.innerHTML = "<h1>new content for body</h1>";
 
 // we can use also textContent that the show us the hidden text
+
+// Qustion number one 
+
+// let concat = document.querySelector("p").innerText;
+// console.log(concat + "hello from afg");
+
+let divs = document.querySelectorAll(".box");
+
+divs[0].innerText = "for div one";
+divs[1].innerText = "for div two";
+divs[2].innerText = "for div three";
