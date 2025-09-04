@@ -465,8 +465,14 @@
 // let concat = document.querySelector("p").innerText;
 // console.log(concat + "hello from afg");
 
-let divs = document.querySelectorAll(".box");
+// let divs = document.querySelectorAll(".box");
 
-divs[0].innerText = "for div one";
-divs[1].innerText = "for div two";
-divs[2].innerText = "for div three";
+// divs[0].innerText = "for div one";
+// divs[1].innerText = "for div two";
+// divs[2].innerText = "for div three";
+
+let div = document.querySelectorAll(".box");
+
+div.innerTEXT = "H'i from afg";
+console.log(div);
+
