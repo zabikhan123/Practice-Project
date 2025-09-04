@@ -471,8 +471,3 @@
 // divs[1].innerText = "for div two";
 // divs[2].innerText = "for div three";
 
-let div = document.querySelectorAll(".box");
-
-div.innerTEXT = "H'i from afg";
-console.log(div);
-
