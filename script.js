@@ -471,3 +471,9 @@
 // divs[1].innerText = "for div two";
 // divs[2].innerText = "for div three";
 
+let divs = document.querySelectorAll(".box");
+let idx = 1; 
+for(let div of divs){
+    div.innerText = `make it just for test ${idx}`;
+    idx++;
+}
