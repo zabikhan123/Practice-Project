@@ -471,9 +471,20 @@
 // divs[1].innerText = "for div two";
 // divs[2].innerText = "for div three";
 
-let divs = document.querySelectorAll(".box");
-let idx = 1; 
-for(let div of divs){
-    div.innerText = `make it just for test ${idx}`;
-    idx++;
-}
+// let divs = document.querySelectorAll(".box");
+// let idx = 1; 
+// for(let div of divs){
+//     div.innerText = `make it just for test ${idx}`;
+//     idx++;
+// }
+
+// git attribute in js   
+
+// let div = document.querySelector("div");
+// console.log(div)
+// let classdiv = div.setAttribute("id");
+// console.log(classdiv);
+
+let par = document.querySelector("p");
+let clas = par.getAttribute("class");
+console.log(clas);
