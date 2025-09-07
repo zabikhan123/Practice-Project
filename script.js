@@ -485,6 +485,16 @@
 // let classdiv = div.setAttribute("id");
 // console.log(classdiv);
 
-let par = document.querySelector("p");
-let clas = par.getAttribute("class");
-console.log(clas);
+// let par = document.querySelector("p");
+// let clas = par.getAttribute("class");
+// console.log(clas);
+
+
+let per= document.querySelector("p");
+console.log(per.setAttribute("box" , "new"));
+
+let sty = document.querySelector("div");
+sty.style.backgroundColor = "red";
+sty.style.color = "white";
+sty.style.padding = "20px";
+sty.style.textAlign = "center";
