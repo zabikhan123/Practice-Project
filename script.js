@@ -570,17 +570,20 @@
 
 // second Quistion
 
-
 // if you want to replace the class in the p tag
+
 
 // let par = document.querySelector("p");
 // par.setAttribute("class","newclass");
+
 
 
 // if you want to add more class in the p tag at the same time 
 
 // let par = document.querySelector("p");
 // par.classList.add("newclass");
+
+
 
 // if you want to remove the class 
 
