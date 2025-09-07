@@ -490,11 +490,57 @@
 // console.log(clas);
 
 
-let per= document.querySelector("p");
-console.log(per.setAttribute("box" , "new"));
+// let per= document.querySelector("p");
+// console.log(per.setAttribute("box" , "new"));
 
-let sty = document.querySelector("div");
-sty.style.backgroundColor = "red";
-sty.style.color = "white";
-sty.style.padding = "20px";
-sty.style.textAlign = "center";
+// let sty = document.querySelector("div");
+// sty.style.backgroundColor = "red";
+// sty.style.color = "white";
+// sty.style.padding = "20px";
+// sty.style.textAlign = "center";
+
+
+
+
+// adds at the end of the node (inside)
+
+// let btn = document.createElement("button");
+// btn.innerText = "cleck me!";
+// let div = document.querySelector("div");
+// div.append(btn);
+
+
+
+
+// adds at the start of the node (inside)
+
+// let btn = document.createElement("button");
+// btn.innerText = "cleck me!";
+// let div = document.querySelector("div");
+// div.prepend(btn);
+
+
+
+
+// adds before the node (outside) 
+
+// let btn = document.createElement("button");
+// btn.innerText = "cleck me!";
+// let div = document.querySelector("div");
+// div.before(btn);
+
+
+
+
+// adds after the node (outside)
+
+// let btn = document.createElement("button");
+// btn.innerText = "cleck me!";
+// let div = document.querySelector("div");
+// div.after(btn);
+
+
+
+// let head = document.createElement("h1");
+// head.innerText = "hi i am from afg";
+// document.querySelector("body").append(head);
