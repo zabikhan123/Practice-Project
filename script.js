@@ -555,3 +555,35 @@
 
 // let per =  document.querySelector("p");
 // per.remove();
+
+
+// first Quistion 
+
+
+// let btn = document.createElement("button");
+// btn.innerText = "cleck me!";
+// btn.style.color ="white";
+// btn.style.backgroundColor = "red";
+// btn.style.padding = "10px 20px";
+// document.querySelector("body").prepend(btn);
+
+
+// second Quistion
+
+
+// if you want to replace the class in the p tag
+
+// let par = document.querySelector("p");
+// par.setAttribute("class","newclass");
+
+
+// if you want to add more class in the p tag at the same time 
+
+// let par = document.querySelector("p");
+// par.classList.add("newclass");
+
+// if you want to remove the class 
+
+// let par = document.querySelector("p");
+// par.classList.remove("newclass");
+
