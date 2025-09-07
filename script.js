@@ -501,6 +501,10 @@
 
 
 
+// insert  Element in js
+
+
+
 
 // adds at the end of the node (inside)
 
@@ -544,3 +548,10 @@
 // let head = document.createElement("h1");
 // head.innerText = "hi i am from afg";
 // document.querySelector("body").append(head);
+
+
+// remove Element in js 
+
+
+// let per =  document.querySelector("p");
+// per.remove();
