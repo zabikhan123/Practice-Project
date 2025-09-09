@@ -590,3 +590,6 @@
 // let par = document.querySelector("p");
 // par.classList.remove("newclass");
 
+let nav= document.querySelector("p");
+nav.classList.remove("newclass");
+
