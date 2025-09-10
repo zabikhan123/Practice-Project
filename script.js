@@ -591,16 +591,23 @@
 // par.classList.remove("newclass");
 
 
-let btn = document.querySelector("button");
-btn.onclick = () => {
-    console.log("the was clisked for the function way");
-    let a = 23;
-    a++;
-    console.log(a)
-};
+// let btn = document.querySelector("button");
+// btn.onclick = () => {
+//     console.log("the was clisked for the function way");
+//     let a = 23;
+//     a++;
+//     console.log(a)
+// };
 
 
-let div = document.querySelectorAll("#box");
-div[0].onmouseover = () => {
-    console.log("you are hover the box");
-}
+// let div = document.querySelectorAll("#box");
+// div[0].onmouseover = () => {
+//     console.log("you are hover the box");
+// }
+
+
+// let btn = document.querySelector("button");
+
+// btn.addEventListener("click", ()=> {
+//     console.log(" this is add event listener metod");
+// })
