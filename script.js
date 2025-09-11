@@ -613,3 +613,8 @@
 // btn.addEventListener("click", ()=> {
 //     console.log(" this is add event listener metod");
 // })
+
+let btn = document.querySelector("button");
+btn.addEventListener("click", ()=>{
+    console.log("this massage sayes hi from afg ")
+})
