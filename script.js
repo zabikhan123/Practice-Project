@@ -599,18 +599,6 @@
 //     console.log(a)
 // };
 
-let btn = document.querySelector("button");
-btn.onclick = () =>{
- console.log("hello from india")
- let b = 11;
- b++;
- console.log(b);
-}
-
-
-
-
-
 
 // let div = document.querySelectorAll("#box");
 // div[0].onmouseover = () => {
