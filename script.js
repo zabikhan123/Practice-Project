@@ -598,13 +598,6 @@
 //     a++;
 //     console.log(a)
 // };
-let btn = document.querySelector("button");
-btn.onclick = () => {
-    console.log("this page seays hello");
-    let a = 22;
-    a++;
-};
-
 
 // let div = document.querySelectorAll("#box");
 // div[0].onmouseover = () => {
@@ -617,4 +610,4 @@ btn.onclick = () => {
 
 // btn.addEventListener("click", ()=> {
 //     console.log(" this is add event listener metod");
-// })
+//
