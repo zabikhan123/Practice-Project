@@ -598,6 +598,12 @@
 //     a++;
 //     console.log(a)
 // };
+let btn = document.querySelector("button");
+btn.onclick = () => {
+    console.log("this page seays hello");
+    let a = 22;
+    a++;
+};
 
 
 // let div = document.querySelectorAll("#box");
